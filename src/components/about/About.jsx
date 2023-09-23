@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import Award from "../../img/award.jpg";
 import FT1 from "../../img/myft1.png";
+import Dwn from "../Download/Dwn";
 const About = () => {
   return (
     <div className="a">
@@ -36,9 +37,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <a href="#" class="css-button-arrow--green">
-          See More
-        </a>
+        <div className="App">
+          <Dwn />
+        </div>
       </div>
     </div>
   );

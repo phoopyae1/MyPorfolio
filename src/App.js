@@ -1,14 +1,16 @@
-import About from "./components/about/About";
-import Intro_name from "./components/intro/Intro_name";
-import ProductList from "./components/productList/ProductList";
+// import { Routes, Route } from "react-router-dom";
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Pages/home";
+
+// import Navbar from "./Navbar";
 const App = () => {
   return (
-    <div>
-      <Intro_name />
-      <About />
-      <ProductList />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
