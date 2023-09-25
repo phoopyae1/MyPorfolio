@@ -1,14 +1,16 @@
 import React from "react";
-import About from "../components/about/About";
 import ITName from "../components/intro/ITName";
 import ProductList from "../components/productList/ProductList";
+import Contact from "../components/contact/Contact";
+import Aboutv1 from "../components/about/Aboutv1";
 
 const Home = () => {
   return (
     <>
       <ITName />
-      <About />
+      <Aboutv1 />
       <ProductList />
+      <Contact />
     </>
   );
 };

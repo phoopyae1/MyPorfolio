@@ -3,7 +3,7 @@ import "./about.css";
 import Award from "../../img/award.jpg";
 import FT1 from "../../img/myft1.png";
 import Dwn from "../Download/Dwn";
-const About = () => {
+const Aboutv1 = () => {
   return (
     <div className="a">
       <div className="a-left">
@@ -37,7 +37,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="App">
+        <div className="Down">
           <Dwn />
         </div>
       </div>
@@ -45,4 +45,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Aboutv1;
